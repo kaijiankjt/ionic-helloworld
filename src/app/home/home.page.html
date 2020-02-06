@@ -1,0 +1,22 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>
+      Hello World
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <div class="ion-padding">
+    <h1>Welcome to my app!</h1>
+    <h2>Kai's app</h2>
+    <p>I hope you enjoy</p>
+    <p>Number is : {{number}}</p>
+    <p>{{message}}</p>
+    <ion-button color="primary" expand="full" (click)="incrementPressed()">Increment</ion-button>
+    <ion-button color="primary" expand="full" (click)="decrementPressed()">Decrement</ion-button>
+    <ion-button color="danger" expand="full" (click)="resetPressed()">Reset</ion-button>
+    <ion-button color="tertiary" expand="full" (click)="alertButton()">Click me to show Alert!</ion-button>
+    <ion-button color="tertiary" expand="full" (click)="actionButton()">Click me to show Action Sheet!</ion-button>
+  </div>
+</ion-content>
